@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px; /* Limit the width of the entire page */
+    max-width: 90%; /* Ensure the page doesn't stretch too far */
+    margin: 0 auto; /* Center the content */
+    padding: 10px;
+    background-color: #defade; /* Light green background */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.2s ease; /* Smooth transition */
+    box-shadow: 0 5px #999; /* Create 3D shadow effect */
+  }
+  
+  button:active {
+    box-shadow: 0 2px #666; /* Move the shadow when clicked */
+    transform: translateY(4px); /* Push button down */
+  }
+  
+  input[type="text"], textarea, input[type="date"] {
+    width: 100%; /* Make sure the inputs don't exceed the container width */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background for contrast */
+    font-size: 14px;
+    box-sizing: border-box; /* Prevent the padding from affecting the width */
+  }
+  
+  textarea {
+    height: 60px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  small {
+    display: block;
+    margin-top: 10px;
+    color: gray;
+  }
+  

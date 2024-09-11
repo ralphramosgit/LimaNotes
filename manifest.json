@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Homework List",
+    "version": "1.0",
+    "description": "Manage your tasks with due dates and details.",
+    "permissions": ["storage", "activeTab", "tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "lnicon16.png",
+        "48": "lnicon48.png",
+        "128": "lnicon128.png"
+      }
+    },
+    "icons": {
+      "16": "lnicon16.png",
+      "48": "lnicon48.png",
+      "128": "lnicon128.png"
+    }
+  }
+  
